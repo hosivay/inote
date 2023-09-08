@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:hive_flutter/hive_flutter.dart';
-import 'package:inote/AddNote.dart';
+import 'package:inote/addNote.dart';
 import 'package:inote/main.dart';
 import 'package:inote/models.dart';
 import 'package:inote/noteDB.dart';

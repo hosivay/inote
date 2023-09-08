@@ -10,9 +10,9 @@ class AddNote extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final TextEditingController _controller = TextEditingController();
+    final TextEditingController controller = TextEditingController();
 
-    final TextEditingController _controller2 = TextEditingController();
+    final TextEditingController controller2 = TextEditingController();
 
     return Scaffold(
       backgroundColor: Colors.white,
@@ -28,8 +28,8 @@ class AddNote extends StatelessWidget {
       floatingActionButton: FloatingActionButton.extended(
           onPressed: () {
             final note1 = Note();
-            note1.title = _controller.text;
-            note1.note = _controller2.text;
+            note1.title = controller.text;
+            note1.note = controller2.text;
             // if(note1.isInBox){
             //          // note1.save();
             // }else{
@@ -46,7 +46,7 @@ class AddNote extends StatelessWidget {
             Padding(
               padding: const EdgeInsets.all(15.0),
               child: TextField(
-                controller: _controller,
+                controller: controller,
                 decoration: const InputDecoration(
                     label: Text(
                   "Title...",
@@ -56,7 +56,7 @@ class AddNote extends StatelessWidget {
             Padding(
               padding: const EdgeInsets.all(20.0),
               child: TextField(
-                controller: _controller2,
+                controller: controller2,
                 decoration: InputDecoration(
                   border: const OutlineInputBorder(),
                   contentPadding: EdgeInsets.symmetric(
