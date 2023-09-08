@@ -1,16 +1,18 @@
-# inote
+# **<span style="font-size:45px;">iNote</span>** <br/>
 
-A new Flutter project.
+![iNote](https://s6.uupload.ir/files/banner_zdr.png)
+ 
+## 📸 ScreenShots
 
-## Getting Started
+|1                                  | 2                                 |
+| --------------------------------- | --------------------------------- |
+| <img src="https://s6.uupload.ir/files/1_ln3y.jpg" width="300">  | <img src="https://s6.uupload.ir/files/2_77nt.jpg" width="300">  | 
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+## 🔌 Plugins
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+| Name                                                                   | Usage                                         |
+| ---------------------------------------------------------------------- | --------------------------------------------- | 
+| [**Hive**](https://pub.dev/packages/hive_flutter)                      | Local Storage                                 |
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+ # <em><span style="font-size:10px;">Version : 1.0.2 </span><em/><br/>
