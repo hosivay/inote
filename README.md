@@ -1,6 +1,5 @@
 # **<span style="font-size:45px;">iNote</span>** <br/>
-
-![iNote](https://s6.uupload.ir/files/banner_zdr.png)
+ <img src="https://s6.uupload.ir/files/banner_zdr.png" width="500"> 
  
 ## 📸 ScreenShots
 
